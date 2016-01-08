@@ -4,7 +4,7 @@ import Riffle
 class ExampleSession: Riffle.Domain, Riffle.Delegate {
     override func onJoin() {
         register("echo") { (msg: String) -> String in
-            print("Echo: \(msg)")
+            Riffle.ApplicationLog("Echo: \(msg)")
             return msg
         }
     }
