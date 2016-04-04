@@ -17,13 +17,12 @@ Visit www.exis.io to learn how to host it on Exis!
 
 # Project Structure
 
-Backend/main.swift . . . is the entry point for the example code.
-
-Backend/Package.swift  . lists dependencies including Riffle.
-
-Run.yaml . . . . . . . . tells us how to execute your code on Exis.
-
-Dockerfile . . . . . . . can be used for local testing if you have Docker installed.
+File                   | Purpose
+---------------------- | -----------------------------------------------------------
+Backend/main.swift     | is the entry point for the example code.
+Backend/Package.swift  | lists dependencies including Riffle.
+Run.yaml               | tells us how to execute your code on Exis.
+Dockerfile             | can be used for local testing if you have Docker installed.
 
 ## Package.swift
 
